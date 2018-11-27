@@ -29,9 +29,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         resultado= findViewById(R.id.resul);
 
         suma.setOnClickListener(this);
+
         resta.setOnClickListener(this);
         multiplicacion.setOnClickListener(this);
         division.setOnClickListener(this);
+
     }
 
     @Override
